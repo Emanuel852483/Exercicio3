@@ -1,11 +1,11 @@
 Exercício de Algoritmia:
-Solicite ao utilizador a introdução de dois números inteiros e, em seguida, calcule e exiba a sua soma.
+Solicite ao utilizador a introdução de dois números inteiros e, em seguida, calcule e exiba a subtração do primeiro número pelo segundo.
 
 Passos:
 1. Peça ao utilizador o primeiro número inteiro.
 2. Peça ao utilizador o segundo número inteiro.
-3. Some os dois números.
-4. Exiba o resultado da soma.
+3. Subtraia o segundo número do primeiro.
+4. Exiba o resultado da subtração.
 
 Sugestão de implementação (em pseudocódigo):
 
@@ -14,6 +14,6 @@ Inicio
     Leia(numero1)
     Escreva("Insira o segundo número: ")
     Leia(numero2)
-    soma <- numero1 + numero2
-    Escreva("A soma dos números é: ", soma)
+    subtracao <- numero1 - numero2
+    Escreva("A subtração do primeiro pelo segundo é: ", subtracao)
 Fim
