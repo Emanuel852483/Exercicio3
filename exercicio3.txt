@@ -1,11 +1,12 @@
 Exercício de Algoritmia:
-Solicite ao utilizador a introdução de dois números inteiros e, em seguida, calcule e exiba a subtração do primeiro número pelo segundo.
+Solicite ao utilizador a introdução de dois números inteiros e, em seguida, calcule e exiba a subtração do maior número pelo menor.
 
 Passos:
 1. Peça ao utilizador o primeiro número inteiro.
 2. Peça ao utilizador o segundo número inteiro.
-3. Subtraia o segundo número do primeiro.
-4. Exiba o resultado da subtração.
+3. Identifique qual dos números é o maior e qual é o menor.
+4. Subtraia o menor número do maior.
+5. Exiba o resultado da subtração.
 
 Sugestão de implementação (em pseudocódigo):
 
@@ -14,6 +15,10 @@ Inicio
     Leia(numero1)
     Escreva("Insira o segundo número: ")
     Leia(numero2)
-    subtracao <- numero1 - numero2
-    Escreva("A subtração do primeiro pelo segundo é: ", subtracao)
+    Se numero1 > numero2 então
+        subtracao <- numero1 - numero2
+    Senão
+        subtracao <- numero2 - numero1
+    Fim Se
+    Escreva("A subtração do maior pelo menor é: ", subtracao)
 Fim
