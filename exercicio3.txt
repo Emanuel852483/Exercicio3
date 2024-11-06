@@ -1,0 +1,19 @@
+Exercício de Algoritmia:
+Solicite ao utilizador a introdução de dois números inteiros e, em seguida, calcule e exiba a sua soma.
+
+Passos:
+1. Peça ao utilizador o primeiro número inteiro.
+2. Peça ao utilizador o segundo número inteiro.
+3. Some os dois números.
+4. Exiba o resultado da soma.
+
+Sugestão de implementação (em pseudocódigo):
+
+Inicio
+    Escreva("Insira o primeiro número: ")
+    Leia(numero1)
+    Escreva("Insira o segundo número: ")
+    Leia(numero2)
+    soma <- numero1 + numero2
+    Escreva("A soma dos números é: ", soma)
+Fim
